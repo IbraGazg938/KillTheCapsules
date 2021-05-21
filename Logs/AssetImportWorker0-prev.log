@@ -1,0 +1,583 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'ru' Physical Memory: 12205 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\programms\Unity\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ibrag/Desktop/Kill the Capsules!
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55501
+Successfully changed project path to: C:/Users/ibrag/Desktop/Kill the Capsules!
+C:/Users/ibrag/Desktop/Kill the Capsules!
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/programms/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ibrag/Desktop/Kill the Capsules!/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'D:/programms/Unity/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programms/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/programms/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/programms/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001088 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001100 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 3.179300 ms (FindLiveObjects: 0.685800 ms CreateObjectMapping: 0.382600 ms MarkObjects: 2.003500 ms  DeleteObjects: 0.106200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Audio/Enemy/Enemy death_02.wav
+  artifactKey: Guid(55a32c80025d041c49851ac168a3358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Enemy/Enemy death_02.wav using Guid(55a32c80025d041c49851ac168a3358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96959af3e60f50cfee5ada10747e68fa') in 0.136754 seconds
+  Import took 0.140450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Audio/Enemy/Enemy death_01.wav
+  artifactKey: Guid(9adb69b7496c34a48a537719e14cba17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Enemy/Enemy death_01.wav using Guid(9adb69b7496c34a48a537719e14cba17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e2ad0ca66ed447416e6cdc9bd751a6') in 0.031494 seconds
+  Import took 0.035436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Audio/Enemy/Enemy attack.wav
+  artifactKey: Guid(0ca684a9710324168be662e3364b8e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Enemy/Enemy attack.wav using Guid(0ca684a9710324168be662e3364b8e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff31541c6e6624558e64a72fe319af54') in 0.041352 seconds
+  Import took 0.045512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 3.660500 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.166000 ms MarkObjects: 3.015800 ms  DeleteObjects: 0.099800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000836 seconds.
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 2.210400 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.886900 ms  DeleteObjects: 0.091200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002535 seconds.
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 2.831600 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.092700 ms MarkObjects: 2.459300 ms  DeleteObjects: 0.076800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000766 seconds.
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on MusicManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on AudioManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 2.432100 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.120500 ms MarkObjects: 1.992100 ms  DeleteObjects: 0.069100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2720.964816 seconds.
+  path: Assets/Prefabs/Weapons/Gun 01.prefab
+  artifactKey: Guid(be40e0d31818f4592bef4bcccb0cf1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Gun 01.prefab using Guid(be40e0d31818f4592bef4bcccb0cf1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8d783701274be2ba0bc074555ea1ef') in 0.101822 seconds
+  Import took 0.105274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.533809 seconds.
+  path: Assets/Prefabs/Weapons/Gun 03.prefab
+  artifactKey: Guid(488036bd9f9b04426a34fedb9079f997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Gun 03.prefab using Guid(488036bd9f9b04426a34fedb9079f997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c437e55cf71ec7f8f2f5c9124341570d') in 0.038403 seconds
+  Import took 0.042803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3722.690416 seconds.
+  path: Assets/Audio/Guns/Gun 01_reload.wav
+  artifactKey: Guid(0a8071705a91241d7bfe488a2f30620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 01_reload.wav using Guid(0a8071705a91241d7bfe488a2f30620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fd76ddce68479f01d286695cb0c715') in 0.029170 seconds
+  Import took 0.033517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Audio/Guns/Gun 05_shoot.wav
+  artifactKey: Guid(fa91595dac754461fa6162f123e94ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 05_shoot.wav using Guid(fa91595dac754461fa6162f123e94ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e6a7d71bc053b7b080baa84f7c3da8') in 0.029006 seconds
+  Import took 0.033856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Audio/Guns/Gun 03_reload.wav
+  artifactKey: Guid(d617432175d1a42b9adc26881cd90b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 03_reload.wav using Guid(d617432175d1a42b9adc26881cd90b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382c32b268dc7c20ee724e318b8a48e4') in 0.021490 seconds
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Audio/Guns/Gun 01_shoot.wav
+  artifactKey: Guid(fac59437641d2421e9f6ac845763b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 01_shoot.wav using Guid(fac59437641d2421e9f6ac845763b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061ab8fe6ea40f5c2aae2ea3d53b9c44') in 0.033122 seconds
+  Import took 0.037142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Audio/Guns/Gun 02_reload.wav
+  artifactKey: Guid(64ca40a97e8cc47649d5c2fb07a8b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 02_reload.wav using Guid(64ca40a97e8cc47649d5c2fb07a8b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0384d0503599628361b7ebf109a204') in 0.019455 seconds
+  Import took 0.024296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Audio/Guns/Gun 03_shoot.wav
+  artifactKey: Guid(90bb8f60485d141089a4870536866a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 03_shoot.wav using Guid(90bb8f60485d141089a4870536866a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa699b9638114799878a18de71fa492') in 0.023396 seconds
+  Import took 0.026151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Audio/Guns/Gun 02_reload.wav
+  artifactKey: Guid(64ca40a97e8cc47649d5c2fb07a8b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 02_reload.wav using Guid(64ca40a97e8cc47649d5c2fb07a8b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0384d0503599628361b7ebf109a204') in 0.014921 seconds
+  Import took 0.019088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Audio/Guns/Gun 04_shoot.wav
+  artifactKey: Guid(12e2048c8149340b78a140055523ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 04_shoot.wav using Guid(12e2048c8149340b78a140055523ebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f3fb8af75b6c5494575646a2a50ccc') in 0.020234 seconds
+  Import took 0.024158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Audio/Guns/Gun 02_shoot.wav
+  artifactKey: Guid(b585318940e5644e095a7d423a6a8ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 02_shoot.wav using Guid(b585318940e5644e095a7d423a6a8ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f1b81ec1487e6ad540ccb6d974a74c') in 0.023486 seconds
+  Import took 0.027677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Audio/Guns/Gun 05_reload.wav
+  artifactKey: Guid(6e025827e286846e0a168b83c44f20aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 05_reload.wav using Guid(6e025827e286846e0a168b83c44f20aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ed0893efdee008e239fe3912d3716') in 0.022199 seconds
+  Import took 0.027691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Audio/Guns/Gun 04_reload.wav
+  artifactKey: Guid(f6813b79839414c8c83dd4cd03fb4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Guns/Gun 04_reload.wav using Guid(f6813b79839414c8c83dd4cd03fb4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2602585bd706d670539ef70be8e763c') in 0.025295 seconds
+  Import took 0.029578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.257040 seconds.
+  path: Assets/Prefabs/Discord.lnk
+  artifactKey: Guid(253ccf536a7b09549be7e774fb3e8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Discord.lnk using Guid(253ccf536a7b09549be7e774fb3e8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766075305b1679d58f2744911bead765') in 0.020384 seconds
+  Import took 0.024500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.072893 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(8142a225d1a6a41108a3799f05f62ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioManager.cs using Guid(8142a225d1a6a41108a3799f05f62ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd70ec16038e6c1f4aa5b24e2bbc9e28') in 0.016322 seconds
+  Import took 0.019828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782941 seconds.
+  path: Assets/Scripts/GameUI.cs
+  artifactKey: Guid(acac6ce296a494b7f8c958ccff7527f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameUI.cs using Guid(acac6ce296a494b7f8c958ccff7527f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0173d4e62aac647a15d303175b63d860') in 0.011501 seconds
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021381 seconds.
+  path: Assets/Scripts/GameUI.cs
+  artifactKey: Guid(acac6ce296a494b7f8c958ccff7527f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameUI.cs using Guid(acac6ce296a494b7f8c958ccff7527f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0173d4e62aac647a15d303175b63d860') in 0.004113 seconds
+  Import took 0.008159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399698 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(aba355178253a4f73a08ad7a9887983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(aba355178253a4f73a08ad7a9887983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244361418849621c5e2a25afde7f199e') in 0.009260 seconds
+  Import took 0.014769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353611 seconds.
+  path: Assets/Scripts/GunController.cs
+  artifactKey: Guid(3161534b9aebd46fbbfd2afacc504776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GunController.cs using Guid(3161534b9aebd46fbbfd2afacc504776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113b8308d7294f37a151d42be50d050') in 0.010954 seconds
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448127 seconds.
+  path: Assets/Scripts/IDamageable.cs
+  artifactKey: Guid(56c3d9494bfc14c3992eec1c523f4d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IDamageable.cs using Guid(56c3d9494bfc14c3992eec1c523f4d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89712f1ffcb7cc503622de2d2f695c61') in 0.011207 seconds
+  Import took 0.015522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.451874 seconds.
+  path: Assets/Scripts/LivingEntity.cs
+  artifactKey: Guid(1c9d069929f1941b293cd9edddc1abe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LivingEntity.cs using Guid(1c9d069929f1941b293cd9edddc1abe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fbbd9c0e61d54dc5c50386008539ee') in 0.009949 seconds
+  Import took 0.014491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320093 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(ea55612a35346460ebf1d2bc8a94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(ea55612a35346460ebf1d2bc8a94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5828f7b099f4758044d1aca94edde0') in 0.009783 seconds
+  Import took 0.012732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017877 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(ea55612a35346460ebf1d2bc8a94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(ea55612a35346460ebf1d2bc8a94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5828f7b099f4758044d1aca94edde0') in 0.003342 seconds
+  Import took 0.007035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.410076 seconds.
+  path: Assets/Scripts/MusicManager.cs
+  artifactKey: Guid(69c50c4ca2f244417a81ccd7d560f50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicManager.cs using Guid(69c50c4ca2f244417a81ccd7d560f50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e00e839883cb28ef78307ec08a75b0') in 0.009977 seconds
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.638325 seconds.
+  path: Assets/Scripts/ScoreKeeper.cs
+  artifactKey: Guid(16e4f9560e3524212a19b67efcc49bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreKeeper.cs using Guid(16e4f9560e3524212a19b67efcc49bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470808850f6366b03a093f9d76409d6c') in 0.009448 seconds
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.610919 seconds.
+  path: Assets/Scripts/SoundLibrary.cs
+  artifactKey: Guid(2ce30b4a8694d42fba511759571644cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundLibrary.cs using Guid(2ce30b4a8694d42fba511759571644cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18abfa598345591ce9fa57999aa8a44b') in 0.010770 seconds
+  Import took 0.014053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.833460 seconds.
+  path: Assets/Scripts/Utility.cs
+  artifactKey: Guid(4fa420bada32e4704af482663811ba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utility.cs using Guid(4fa420bada32e4704af482663811ba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9789e0bea4399192d57e3473217ab35') in 0.010777 seconds
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5641.519183 seconds.
+  path: Assets/Scripts/Crosshairs.cs
+  artifactKey: Guid(c9cf17abe258a4b6eb2bcb54c5fc71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Crosshairs.cs using Guid(c9cf17abe258a4b6eb2bcb54c5fc71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc0252c54549fe0d4445905a096caf1') in 0.029900 seconds
+  Import took 0.045364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.399757 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(cf88fddf621384633a1cdc81391ad575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(cf88fddf621384633a1cdc81391ad575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169707a281559494113489eb1e70b289') in 0.013843 seconds
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003944 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(cf88fddf621384633a1cdc81391ad575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(cf88fddf621384633a1cdc81391ad575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169707a281559494113489eb1e70b289') in 0.006274 seconds
+  Import took 0.010705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.612521 seconds.
+  path: Assets/Scripts/MapGenerator.cs
+  artifactKey: Guid(dec23d8a6dd1941c3abd7a136b921422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MapGenerator.cs using Guid(dec23d8a6dd1941c3abd7a136b921422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38507c5e98bea183ba82b74184720ec8') in 0.193897 seconds
+  Import took 0.232416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.931766 seconds.
+  path: Assets/Scripts/MuzzleFlash.cs
+  artifactKey: Guid(fa7d1e2c245434c5eb612fe353552c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MuzzleFlash.cs using Guid(fa7d1e2c245434c5eb612fe353552c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd272977ae6415390701cf60f2f866109') in 0.017054 seconds
+  Import took 0.020909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654721 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(db478f39a9d3c4edf854a1c7be422bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(db478f39a9d3c4edf854a1c7be422bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6791f79c22ee9ff3fa1b6f71a3c0748') in 0.010530 seconds
+  Import took 0.015366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678999 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(aa9aa877270654582930dd32bf5d0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(aa9aa877270654582930dd32bf5d0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd3fa443a4f598b427b9839697c798') in 0.015379 seconds
+  Import took 0.019179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.304128 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(7401adbcd325d4728a38db80c3be325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Projectile.cs using Guid(7401adbcd325d4728a38db80c3be325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c322983ca9283bb114adb9dd1a5e94a') in 0.021968 seconds
+  Import took 0.034054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001689 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(7401adbcd325d4728a38db80c3be325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Projectile.cs using Guid(7401adbcd325d4728a38db80c3be325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c322983ca9283bb114adb9dd1a5e94a') in 0.006716 seconds
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.004993 seconds.
+  path: Assets/Scripts/Shell.cs
+  artifactKey: Guid(36480f8976087414fae02c342a2edabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shell.cs using Guid(36480f8976087414fae02c342a2edabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32f48e2479c3003ad32089f080d528') in 0.013850 seconds
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.330051 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(cd5a68823ff5b47798cfa92b3ec7b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(cd5a68823ff5b47798cfa92b3ec7b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ee205f55e661e44aedebb66d0db37b') in 0.012235 seconds
+  Import took 0.015586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3251.469887 seconds.
+  path: Assets/Audio/Player/Level completed.wav
+  artifactKey: Guid(557ed296e3a8c4844b5a6f403cfe19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Player/Level completed.wav using Guid(557ed296e3a8c4844b5a6f403cfe19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f6321a7a548cd772ead34a48d587b') in 0.025417 seconds
+  Import took 0.029884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Audio/Player/Player death.wav
+  artifactKey: Guid(3d24370b259f24569a73f7f58aa703c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Player/Player death.wav using Guid(3d24370b259f24569a73f7f58aa703c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8477e71704cea085ee6ef98b3ae9ab8') in 0.027556 seconds
+  Import took 0.030819 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
